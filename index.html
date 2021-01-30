@@ -12,19 +12,20 @@
     </head>
     
     <body style="margin : 0px; overflow: hidden;">
-        <a-scene embedded arjs>
-        <a-marker 
-            type="pattern" 
-            preset="custom"
-            url="marker/pattern-qr.patt" 
-        >
-            <a-entity
-            position="0 1 0"
-            scale=".5 .5 .5"
-            gltf-model="models/cube.glb"
-            ></a-entity>
-        </a-marker>
-        <a-entity camera></a-entity>
+        
+        <a-scene embedded arjs gesture-detector renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" id="scene">
+            <a-marker 
+                type="pattern" 
+                preset="custom"
+                url="marker/pattern-qr.patt" 
+            >
+                <a-entity
+                    position="0 1 0"
+                    scale=".5 .5 .5"
+                    gltf-model="models/cube.glb"
+                ></a-entity>
+            </a-marker>
+            <a-entity camera></a-entity>
         </a-scene>
     </body>
 </html>
