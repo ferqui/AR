@@ -1,0 +1,495 @@
+{
+    "accessors": [
+        {
+            "bufferView": 4,
+            "byteOffset": 16,
+            "componentType": 5126,
+            "count": 4357,
+            "max": [
+                0.9877291321754456,
+                0.4933982789516449,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.493633896112442,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Cylinder_skin_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4357,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "name": "accessor_buffer_Cylinder_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4357,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_Cylinder_COLOR_0_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2,
+            "max": [
+                -0.3085075616836548,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0000001192092896,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.3085075616836548,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                -0.3085075616836548,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.3085075616836548,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "accessor_buffer_IBM_Cylinder_skin_0",
+            "type": "MAT4"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5121,
+            "count": 4357,
+            "max": [
+                1,
+                1,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "accessor_buffer_Cylinder_skin_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 13812,
+            "max": [
+                4356
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Cylinder_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 81,
+            "max": [
+                0.3236156105995178,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "min": [
+                -0.32361575961112976,
+                0.0,
+                0.0,
+                0.9461886882781982
+            ],
+            "name": "accessor_buffer_Bone.001_Armature_Move_0",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 81,
+            "max": [
+                3.33333333333333
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_Move_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 4357,
+            "max": [
+                0.9951850175857544,
+                1.0,
+                0.9951850175857544
+            ],
+            "min": [
+                -0.9951848387718201,
+                -1.0,
+                -0.9951848387718201
+            ],
+            "name": "accessor_buffer_Cylinder_NORMAL_0",
+            "type": "VEC3"
+        }
+    ],
+    "animations": [
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 5,
+                        "path": "rotation"
+                    }
+                }
+            ],
+            "name": "Armature_Move",
+            "samplers": [
+                {
+                    "input": 7,
+                    "interpolation": "LINEAR",
+                    "output": 6
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 52284,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Cylinder_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 52284,
+            "byteOffset": 52284,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Cylinder_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 52284,
+            "byteOffset": 104568,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Cylinder_COLOR_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27628,
+            "byteOffset": 156852,
+            "name": "bufferView_buffer_Cylinder_0",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 139424,
+            "byteOffset": 184480,
+            "byteStride": 32,
+            "name": "bufferView_buffer_Cylinder_skin_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 324,
+            "byteOffset": 323904,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_Move_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1296,
+            "byteOffset": 324228,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone.001_Armature_Move_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 128,
+            "byteOffset": 325524,
+            "byteStride": 64,
+            "name": "bufferView_buffer_IBM_Cylinder_skin_0"
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 325652,
+            "name": "buffer_test",
+            "uri": "buffer_test.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "BLEND",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "Material.003",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.11180456727743149,
+                    0.64000004529953,
+                    0.06416603177785873,
+                    0.43089431524276733
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Cylinder",
+            "primitives": [
+                {
+                    "attributes": {
+                        "COLOR_0": 2,
+                        "JOINTS_0": 4,
+                        "NORMAL": 8,
+                        "POSITION": 1,
+                        "WEIGHTS_0": 0
+                    },
+                    "indices": 5,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                2,
+                4
+            ],
+            "name": "Armature",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "camera": 0,
+            "name": "Camera",
+            "rotation": [
+                -0.09062843769788742,
+                -0.8937962651252747,
+                -0.2099730223417282,
+                0.38578000664711
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -7.481131553649902,
+                5.34366512298584,
+                -6.5076398849487305
+            ]
+        },
+        {
+            "mesh": 0,
+            "name": "Cylinder",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.3085075616836548,
+                1.0,
+                0.3085075616836548
+            ],
+            "skin": 0,
+            "translation": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Lamp",
+            "rotation": [
+                -0.34203386306762695,
+                -0.5232755541801453,
+                -0.2841663062572479,
+                0.7269423007965088
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                -4.076245307922363,
+                5.903861999511719,
+                1.0054539442062378
+            ]
+        },
+        {
+            "children": [
+                5
+            ],
+            "name": "Armature_Bone",
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Armature_Bone.001",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "active_camera": 0,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                0,
+                3,
+                1
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "inverseBindMatrices": 3,
+            "joints": [
+                4,
+                5
+            ],
+            "name": "Cylinder",
+            "skeleton": 4
+        }
+    ]
+}
